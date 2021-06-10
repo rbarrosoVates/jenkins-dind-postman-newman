@@ -5,5 +5,8 @@
   "scripts": {
     "api-test": "newman run postman/ReqRes.postman_collection.json --globals postman/ReqRes.postman_globals.json"
   },
-  "author": "rbarroso"
+  "author": "rbarroso",
+  "dependencies": {
+    "newman": "^3.5.2"
+  }
 }
