@@ -1,0 +1,9 @@
+{
+  "name": "jenkins-dind-postman-newman",
+  "version": "1.0.0",
+  "description": "Demo for testing API via newman and jenkins",
+  "scripts": {
+    "api-test": "newman run postman/ReqRes.postman_collection.json --globals postman/ReqRes.postman_globals.json"
+  },
+  "author": "rbarroso"
+}
